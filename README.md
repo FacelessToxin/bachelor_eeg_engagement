@@ -1,9 +1,11 @@
 ````markdown
 # corrca_eeg
 
-my bachelor project
+This will be my bachelor project on DTU under the Institute of Mathematics and Computer Science. The topic will be Correlated component analysis of EEG as a neural marker of engagement.
 
 ## Project structure
+
+The base structure has been created utilizing [cookiecutter](https://github.com/cookiecutter/cookiecutter), using the base template provided from the course [mlops](https://github.com/SkafteNicki/mlops_template) by SkafteNicki (git profile). Any modifications to the project structures will be updated later.
 
 The directory structure of the project looks like this:
 ```txt
@@ -27,7 +29,7 @@ The directory structure of the project looks like this:
 ├── reports/                  # Reports
 │   └── figures/
 ├── src/                      # Source code
-│   ├── project_name/
+│   ├── corrca_eeg/
 │   │   ├── __init__.py
 │   │   ├── api.py
 │   │   ├── data.py
@@ -35,6 +37,9 @@ The directory structure of the project looks like this:
 │   │   ├── models.py
 │   │   ├── train.py
 │   │   └── visualize.py
+│   ├── original_corrca/      # Copy of original corrca in matlab
+│   │   ├──
+│   │   └── 
 └── tests/                    # Tests
 │   ├── __init__.py
 │   ├── test_api.py
@@ -46,11 +51,3 @@ The directory structure of the project looks like this:
 ├── pyproject.toml            # Python project file
 ├── README.md                 # Project README
 └── tasks.py                  # Project tasks
-```
-
-
-Created using [mlops_template](https://github.com/SkafteNicki/mlops_template),
-a [cookiecutter template](https://github.com/cookiecutter/cookiecutter) for getting
-started with Machine Learning Operations (MLOps).
-
-````
